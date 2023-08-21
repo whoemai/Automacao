@@ -1,3 +1,7 @@
+### Autenticação da Azure CLI
+
+Antes de executar o código, é fundamental garantir que você tenha autenticado a Azure CLI na sua máquina local. Isso permitirá que o código utilize as credenciais apropriadas para acessar os recursos na sua conta da Azure. A biblioteca `azure.identity.DefaultAzureCredential` detectará automaticamente as credenciais da sua conta, como as credenciais obtidas através da autenticação da Azure CLI.
+
 ### Documentação do Código
 
 #### Importação de Bibliotecas
